@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>prototype</OriginalElement>
+  <nodes>
+    <node x="270.0" y="244.0">prototype.ClientClass</node>
+    <node x="118.0" y="148.0">prototype.Apple</node>
+    <node x="0.0" y="244.0">prototype.MyFruitStore</node>
+    <node x="42.25" y="0.0">prototype.MyFruit</node>
+    <node x="0.0" y="148.0">prototype.Banana</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="prototype.Apple" target="prototype.MyFruit">
+      <point x="0.0" y="-25.5" />
+      <point x="164.5" y="123.0" />
+      <point x="139.0" y="123.0" />
+      <point x="32.25" y="49.0" />
+    </edge>
+    <edge source="prototype.Banana" target="prototype.MyFruit">
+      <point x="0.0" y="-25.5" />
+      <point x="49.0" y="123.0" />
+      <point x="74.5" y="123.0" />
+      <point x="-32.25" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="95.5" y="122.0" />
+  <SelectedNodes>
+    <node>prototype.ClientClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

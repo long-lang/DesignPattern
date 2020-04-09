@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>mediator</OriginalElement>
+  <nodes>
+    <node x="5.5" y="384.0">mediator.AbstractChatRoom</node>
+    <node x="111.0" y="0.0">mediator.Member</node>
+    <node x="0.0" y="241.0">mediator.CommonMember</node>
+    <node x="240.0" y="241.0">mediator.DiamondMember</node>
+    <node x="0.0" y="531.0">mediator.ChatRoom</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="mediator.DiamondMember" target="mediator.Member">
+      <point x="0.0" y="-49.0" />
+      <point x="350.0" y="216.0" />
+      <point x="289.5" y="216.0" />
+      <point x="59.5" y="95.5" />
+    </edge>
+    <edge source="mediator.ChatRoom" target="mediator.AbstractChatRoom">
+      <point x="0.0" y="-60.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="mediator.CommonMember" target="mediator.Member">
+      <point x="0.0" y="-49.0" />
+      <point x="110.0" y="216.0" />
+      <point x="170.5" y="216.0" />
+      <point x="-59.5" y="95.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6413690476190477" x="236.0" y="326.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>bulider</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">bulider.ABCreator</node>
+    <node x="188.0" y="488.0">bulider.XMLUtil</node>
+    <node x="0.0" y="392.0">bulider.RoastChichen</node>
+    <node x="80.5" y="291.0">bulider.Meal</node>
+    <node x="0.0" y="488.0">bulider.Waiter</node>
+    <node x="275.5" y="0.0">bulider.Drink</node>
+    <node x="0.0" y="172.0">bulider.Creator01</node>
+    <node x="347.0" y="291.0">bulider.Food</node>
+    <node x="195.0" y="101.0">bulider.Coco</node>
+    <node x="356.0" y="101.0">bulider.Milk</node>
+    <node x="161.0" y="392.0">bulider.Hamburger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bulider.Hamburger" target="bulider.Meal">
+      <point x="0.0" y="-25.5" />
+      <point x="231.5" y="367.0" />
+      <point x="186.25" y="367.0" />
+      <point x="35.25" y="25.5" />
+    </edge>
+    <edge source="bulider.RoastChichen" target="bulider.Meal">
+      <point x="0.0" y="-25.5" />
+      <point x="70.5" y="367.0" />
+      <point x="115.75" y="367.0" />
+      <point x="-35.25" y="25.5" />
+    </edge>
+    <edge source="bulider.Coco" target="bulider.Drink">
+      <point x="0.0" y="-25.5" />
+      <point x="265.5" y="76.0" />
+      <point x="310.75" y="76.0" />
+      <point x="-35.25" y="25.5" />
+    </edge>
+    <edge source="bulider.Milk" target="bulider.Drink">
+      <point x="0.0" y="-25.5" />
+      <point x="426.5" y="76.0" />
+      <point x="381.25" y="76.0" />
+      <point x="35.25" y="25.5" />
+    </edge>
+    <edge source="bulider.Creator01" target="bulider.ABCreator">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7392795883361921" x="281.0" y="281.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
